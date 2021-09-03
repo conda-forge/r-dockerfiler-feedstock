@@ -23,16 +23,31 @@ build:
 requirements:
   build:
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
     - r-r6
-    - r-attempt
+    - r-attempt >=0.3.1
+    - r-cli
+    - r-desc
+    - r-fs
     - r-glue
+    - r-jsonlite
+    - r-pkgbuild
+    - r-remotes
+    - r-usethis
   run:
     - r-base
     - r-r6
-    - r-attempt
+    - r-attempt >=0.3.1
+    - r-cli
+    - r-desc
+    - r-fs
     - r-glue
+    - r-jsonlite
+    - r-pkgbuild
+    - r-remotes
+    - r-usethis
 
 test:
   commands:
