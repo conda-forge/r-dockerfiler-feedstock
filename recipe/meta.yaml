@@ -1,4 +1,4 @@
-{% set version = "0.1.4" %}
+{% set version = "0.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/dockerfiler_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/dockerfiler/dockerfiler_{{ version }}.tar.gz
-  sha256: ea2ea97938b9bc2d0f0390abc6abee330716b2eb8538a18ba855e82c7213a7bf
+  sha256: ba6ee7f0cd00191e0ff0b5aaf84985b8cf63bef6956860fc810b8db7ee1ce7c8
 
 build:
   merge_build_host: true  # [win]
