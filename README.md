@@ -1,11 +1,11 @@
-About r-dockerfiler
-===================
+About r-dockerfiler-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-dockerfiler-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ColinFay/dockerfiler
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-dockerfiler-feedstock/blob/main/LICENSE.txt)
 
 Summary: Build a Dockerfile straight from your R session. 'dockerfiler' allows you to create step by step a Dockerfile, and provide convenient tools to wrap R code inside this Dockerfile.
 
