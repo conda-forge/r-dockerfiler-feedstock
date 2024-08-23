@@ -1,4 +1,4 @@
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/dockerfiler_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/dockerfiler/dockerfiler_{{ version }}.tar.gz
-  sha256: 5fc09520d14971c0b33acd44fa2864a4528873d89cbee9c6de886c2270abc9bb
+  sha256: a9f0c02ee7993d94944a9e0a20490743ec7e5961126253f2322b2f38dac6b12b
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
